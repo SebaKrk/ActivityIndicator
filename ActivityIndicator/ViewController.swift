@@ -9,12 +9,17 @@ import UIKit
 
 class ViewController: UIViewController {
     
-    var activityIndicator = UIActivityIndicatorView (styl: .Large)
+    var activityIndicator = UIActivityIndicatorView(style: .large)
 
 
     override func viewDidLoad() {
         super.viewDidLoad()
         
+        
+        view.addSubview (activityIndicator)
+        activityIndicator.translatesAutoresizingMaskIntoConstraints = false
+        activityIndicator.centerXAnchor.constraint (equalTo: view.centerXAnchor) .isActive = true
+        activityIndicator.centerYAnchor.constraint (equalTo: view.centerYAnchor) .isActive = true
     }
 
 
