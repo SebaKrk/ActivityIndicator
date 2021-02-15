@@ -20,6 +20,8 @@ class ViewController: UIViewController {
         activityIndicator.translatesAutoresizingMaskIntoConstraints = false
         activityIndicator.centerXAnchor.constraint (equalTo: view.centerXAnchor) .isActive = true
         activityIndicator.centerYAnchor.constraint (equalTo: view.centerYAnchor) .isActive = true
+        activityIndicator.startAnimating ()
+//        self .activityIndicator.stopAnimating ()
     }
 
 
