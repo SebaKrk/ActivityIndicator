@@ -8,12 +8,17 @@
 import UIKit
 
 class ViewController: UIViewController {
+    
+    var activityIndicator = UIActivityIndicatorView (styl: .Large)
+
 
     override func viewDidLoad() {
         super.viewDidLoad()
-        // Do any additional setup after loading the view.
+        
     }
 
 
 }
+
+// https://medium.com/swlh/how-to-give-your-viewcontroller-an-activity-indicator-4c3bfd84893e
 
